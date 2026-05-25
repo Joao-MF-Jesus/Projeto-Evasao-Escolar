@@ -91,7 +91,7 @@ projeto-g2-evasao/
 1. Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/Joao-MF-Jesus/Projeto-Evasao-Escolar
 cd projeto-g2-evasao
 ```
 
@@ -109,7 +109,7 @@ streamlit run app.py
 
 ## Publicação
 
-- GitHub: inserir link do repositório
+- GitHub: https://github.com/Joao-MF-Jesus/Projeto-Evasao-Escolar
 - GitHub Pages: inserir link da página
 - Streamlit Community Cloud: inserir link do dashboard
 
