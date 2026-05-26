@@ -4,11 +4,13 @@ Projeto desenvolvido para a Avaliação G2 da disciplina **Linguagem de Programa
 
 ## Objetivo
 
-Desenvolver um projeto completo de análise e visualização de dados sobre evasão escolar no Brasil, utilizando Python, Pandas, Matplotlib, Seaborn, Streamlit e banco SQLite.
+Desenvolver uma aplicação analítica para investigar padrões de evasão escolar no ensino médio brasileiro, utilizando Python, visualização de dados e dashboard interativo.
 
 ## Problema analisado
 
-A evasão escolar é um problema educacional e social relevante. O projeto busca identificar padrões de evasão por região, estado, rede de ensino, série, renda familiar, desempenho escolar e acesso à internet.
+A evasão escolar é um problema educacional e social relevante, pois impacta diretamente o desenvolvimento social, a empregabilidade, a desigualdade econômica e a inclusão educacional.
+
+Este projeto busca identificar padrões de evasão por região, estado, rede de ensino, série, renda familiar, desempenho acadêmico, acesso à internet e nível de risco educacional.
 
 ## Tecnologias utilizadas
 
@@ -16,47 +18,46 @@ A evasão escolar é um problema educacional e social relevante. O projeto busca
 - Pandas
 - Matplotlib
 - Seaborn
-- Streamlit
 - Plotly
+- Streamlit
 - SQLAlchemy
 - SQLite
 - GitHub
 - GitHub Pages
 - Streamlit Community Cloud
 
-## Funcionalidades intermediárias
+## Funcionalidades
 
-- Filtros múltiplos no dashboard
+- Dashboard interativo em Streamlit
+- Filtros por ano, semestre, região, UF, rede de ensino, série e nível de risco
 - KPIs dinâmicos
-- Análise temporal
-- Visualizações comparativas
-- Dashboard organizado em seções
-- Tratamento e preparação dos dados
-
-## Funcionalidades avançadas
-
-- Persistência em banco SQLite com SQLAlchemy
-- Dashboard multipágina com Streamlit
-- Correlação estatística entre variáveis
-- Integração entre CSV e banco de dados
+- Evolução temporal da evasão
+- Comparação regional e estadual
+- Análise por rede de ensino
+- Análise por série escolar
+- Correlação entre variáveis sociais e educacionais
+- Classificação por nível de risco
+- Persistência dos dados em SQLite
+- Página de apresentação publicada no GitHub Pages
 
 ## KPIs analisados
 
 - Total de matrículas
 - Total de evasões
 - Taxa média de evasão
-- Média de desempenho escolar
-- Média de acesso à internet
+- Desempenho médio
+- Acesso médio à internet
 - Renda média familiar
 - Nível de risco educacional
 
 ## Estrutura do projeto
 
 ```text
-projeto-g2-evasao/
+Projeto-Evasao-Escolar/
 │
 ├── app.py
 ├── requirements.txt
+├── runtime.txt
 ├── README.md
 ├── index.html
 │
@@ -89,30 +90,33 @@ projeto-g2-evasao/
 ## Como executar localmente
 
 1. Clone o repositório:
+   
 
 ```bash
 git clone https://github.com/Joao-MF-Jesus/Projeto-Evasao-Escolar
-cd projeto-g2-evasao
+cd Projeto-Evasao-Escolar
 ```
 
 2. Instale as dependências:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 3. Execute o dashboard:
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ## Publicação
 
 - GitHub: https://github.com/Joao-MF-Jesus/Projeto-Evasao-Escolar
-- GitHub Pages: inserir link da página
-- Streamlit Community Cloud: inserir link do dashboard
+- GitHub Pages: https://joao-mf-jesus.github.io/Projeto-Evasao-Escolar/
+- Streamlit Community Cloud: https://projeto-evasao-escolar-c5mcdrp6sn5veqxjat99cs.streamlit.app
 
 ## Conclusão
 
 O projeto demonstrou como dados educacionais podem ser utilizados para apoiar a tomada de decisão. A análise permitiu identificar padrões regionais, fatores sociais relacionados à evasão e grupos com maior nível de risco, oferecendo uma visão executiva para priorização de ações educacionais.
+
+Além disso, o uso de dashboard interativo, filtros, KPIs, persistência em banco SQLite e publicação online tornou a solução mais completa, organizada e próxima de uma aplicação analítica profissional.
